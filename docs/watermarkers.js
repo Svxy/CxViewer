@@ -5,7 +5,7 @@ if (!user) {
   document.body.innerHTML = '';
 
   const errorMessage = document.createElement('div');
-  errorMessage.innerText = 'ERROR: Incorrect Use\nExample: https://cxwatcher.tnyavnto.com/embed.html?user=<USERNAME>';
+  errorMessage.innerText = 'ERROR: Incorrect Use\nExample: https://cxviewer.tnyavnto.com/embed.html?user=<USERNAME>';
   errorMessage.style.fontSize = '18px';
   document.body.appendChild(errorMessage);
 } else {
